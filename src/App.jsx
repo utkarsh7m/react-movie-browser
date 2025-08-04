@@ -66,7 +66,6 @@ const App = () => {
   }, [debounceSearchTerm]);
 return (
   <>
-    {console.log("TMDB API KEY:", import.meta.env.VITE_TMDB_API_KEY)  }
     <main>
       <div className="pattern" />
       <div className="wrapper">
