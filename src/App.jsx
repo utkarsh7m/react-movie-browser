@@ -7,7 +7,7 @@ import MovieModal from "./components/MovieModal";
 
 // import { updateSearchCount } from "./appwrite";
 const API_BASE_URL = "https://api.themoviedb.org/3";
-const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
+const API_KEY = "31f7e97e778ff5050ddee1769327d65f";
 const API_OPTIONS = {
   method: "GET",
   headers: {
