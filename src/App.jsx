@@ -66,7 +66,6 @@ const App = () => {
   }, [debounceSearchTerm]);
 return (
   <>
-    {console.log(API_KEY)}
     <main>
       <div className="pattern" />
       <div className="wrapper">
